@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@200 & family= Manrope:wght@200 & family= Nanum+Gothic & family= Poppins:wght@200 & family= Raleway:ital,wght@0,200;1,300 & display=swap');
+.navbar{
+    background-color: black;
+}
+.navbar-text{
+    font-family:'Poppins', sans-serif ;
+    color: white;
+    font-size: 20px;
+}
+
+.animacion{
+    text-decoration: none;
+    font-size: 17px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+footer p{
+    font-size: 25px;
+}
+button a{
+text-decoration: none;
+color:#ffffff ;
+}
+button a:hover{
+    color: black; 
+}
+.item{
+    color: #198754;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.form-control{
+    border: #198754 solid 3px;
+    border-radius: 7px;
+}
+#text{
+    height: 150px;
+    
+}
+.form-label{
+    color: white;
+}
+
+
+
+
