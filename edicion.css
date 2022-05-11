@@ -1,54 +1,92 @@
-@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@200 & family= Manrope:wght@200 & family= Nanum+Gothic & family= Poppins:wght@200 & family= Raleway:ital,wght@0,200;1,300 & display=swap');
-.navbar{
-    background-color: black;
-}
-.navbar-text{
-    font-family:'Poppins', sans-serif ;
-    color: white;
-    font-size: 20px;
+@import url("https://fonts.googleapis.com/css2? family= Barlow:wght@200 & family= Manrope:wght@200 & family= Nanum+Gothic & family= Poppins:wght@200 & family= Raleway:ital,wght@0,200;1,300 & display=swap");
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-.animacion{
-    text-decoration: none;
-    font-size: 17px;
+.navbar {
+  background-color: black;
 }
+
+.navbar-text {
+  font-size: 20px;
+}
+
+.animacion {
+  text-decoration: none;
+  font-size: 17px;
+}
+
 footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-footer p{
-    font-size: 25px;
-}
-button a{
-text-decoration: none;
-color:#ffffff ;
-}
-button a:hover{
-    color: black; 
-}
-.item{
-    color: #198754;
-    text-align: center;
-    text-transform:uppercase;
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.832);
+  color: #ffffff;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
-}
-.form-control{
-    border: #198754 solid 3px;
-    border-radius: 7px;
-}
-#text{
-    height: 150px;
-    
-}
-.form-label{
-    color: white;
+footer p {
+  font-size: 25px;
 }
 
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
+button a:hover {
+  color: rgb(0, 0, 0);
+}
 
+.item {
+  color: #198754;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+body {
+  background-color: #ffffff;
+}
+
+body a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+  border: #198754 solid 3px;
+  border-radius: 7px;
+}
+
+#text {
+  height: 150px;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.blanco {
+  color: #ffffff;
+}
+.blanco img {
+  height: 200px;
+  width: 150px;
+  border: #198754 solid 2px;
+}
+.blanco h2 {
+  font-size: 35px;
+}
+.blanco p {
+  color: grey;
+}
+
+.negro h2 {
+  color: #ffffff;
+}
+.negro p {
+  color: #ffffff;
+}
+.negro svg {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=edicion.css.map */

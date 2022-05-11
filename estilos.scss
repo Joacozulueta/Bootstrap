@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Barlow:wght@200 & family= Manrope:wght@200 & family= Nanum+Gothic & family= Poppins:wght@200 & family= Raleway:ital,wght@0,200;1,300 & display=swap');
+
+$color1:#198754;
+$color2:#ffffff;
+*{
+    font-family:  'Poppins', sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-text{
+
+    font-size: 20px;
+}
+
+.animacion{
+    text-decoration: none;
+    font-size: 17px;
+}
+footer {
+    text-align: center;
+    
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.832);
+    color: $color2;
+}
+footer p{
+    font-size: 25px;
+}
+button a{
+text-decoration: none;
+color:#ffffff ;
+}
+button a:hover{
+    color: rgb(0, 0, 0); 
+}
+.item{
+    color: $color1;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+body{
+    background-color: $color2;
+    
+}
+body a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.form-control{
+    border: $color1 solid 3px;
+    border-radius: 7px;
+}
+#text{
+    height: 150px;
+    
+}
+.form-label{
+    color: $color2;
+}
+.blanco{
+    color: $color2;
+    img{
+        height: 200px;
+        width: 150px;
+        border:$color1 solid 2px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+    p{
+        color: grey;
+    }
+
+}
+.negro{
+    h2{
+        color: $color2;
+    }
+    p{
+        color:$color2 ;
+    }
+    svg{
+        color: $color2;
+    }
+}
